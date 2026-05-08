@@ -1,0 +1,154 @@
+{
+  "version": "1.0.0",
+  "standards": [
+    "NBC 2016 Part 4",
+    "NFPA 101",
+    "Maharashtra Fire & Life Safety Measures Act 2006",
+    "IS 2189",
+    "IS 15524"
+  ],
+  "sections": [
+    {
+      "section": "A",
+      "title": "Building & Structural",
+      "questions": [
+        {
+          "question_id": "A1",
+          "question_text": "Type of building",
+          "type": "text",
+          "reference_standard": "NBC 2016 Clause 3.1",
+          "mandatory": true
+        },
+        {
+          "question_id": "A2",
+          "question_text": "Number of floors",
+          "type": "number",
+          "reference_standard": "NBC 2016 Clause 3.2",
+          "mandatory": true
+        },
+        {
+          "question_id": "A3",
+          "question_text": "Exit doors compliant",
+          "type": "yes_no",
+          "reference_standard": "NBC 2016 Clause 4.8",
+          "mandatory": true
+        },
+        {
+          "question_id": "A4",
+          "question_text": "Upload exit door photo evidence",
+          "type": "photo",
+          "reference_standard": "NBC 2016 Clause 4.8",
+          "mandatory": true
+        }
+      ]
+    },
+    {
+      "section": "B",
+      "title": "Fire Detection & Alarm",
+      "questions": [
+        {
+          "question_id": "B1",
+          "question_text": "Fire alarm panel make/model",
+          "type": "text",
+          "reference_standard": "IS 2189 Clause 6",
+          "mandatory": true
+        },
+        {
+          "question_id": "B2",
+          "question_text": "Smoke detector count",
+          "type": "number",
+          "reference_standard": "IS 2189 Clause 8",
+          "mandatory": true
+        },
+        {
+          "question_id": "B3",
+          "question_text": "Public address system working",
+          "type": "yes_no",
+          "reference_standard": "NBC 2016 Clause 5",
+          "mandatory": false
+        }
+      ]
+    },
+    {
+      "section": "C",
+      "title": "Fire Suppression",
+      "questions": [
+        {
+          "question_id": "C1",
+          "question_text": "Fire extinguisher count",
+          "type": "number",
+          "reference_standard": "IS 15524 Clause 4",
+          "mandatory": true
+        },
+        {
+          "question_id": "C2",
+          "question_text": "Extinguishers serviced in last 12 months",
+          "type": "yes_no",
+          "reference_standard": "IS 15524 Clause 9",
+          "mandatory": true
+        },
+        {
+          "question_id": "C3",
+          "question_text": "Upload pump room photo",
+          "type": "photo",
+          "reference_standard": "NBC 2016 Clause 7",
+          "mandatory": false
+        }
+      ]
+    },
+    {
+      "section": "D",
+      "title": "Passive Protection",
+      "questions": [
+        {
+          "question_id": "D1",
+          "question_text": "Fire rated doors available",
+          "type": "yes_no",
+          "reference_standard": "NBC 2016 Clause 8",
+          "mandatory": true
+        },
+        {
+          "question_id": "D2",
+          "question_text": "Emergency lighting operational",
+          "type": "yes_no",
+          "reference_standard": "NFPA 101 7.8",
+          "mandatory": true
+        },
+        {
+          "question_id": "D3",
+          "question_text": "Upload exit signage evidence",
+          "type": "photo",
+          "reference_standard": "NBC 2016 Clause 8.2",
+          "mandatory": true
+        }
+      ]
+    },
+    {
+      "section": "E",
+      "title": "Housekeeping & Management",
+      "questions": [
+        {
+          "question_id": "E1",
+          "question_text": "Fire safety officer designated",
+          "type": "yes_no",
+          "reference_standard": "Maharashtra Act 2006 Section 5",
+          "mandatory": true
+        },
+        {
+          "question_id": "E2",
+          "question_text": "Last mock drill date",
+          "type": "text",
+          "reference_standard": "NBC 2016 Clause 9",
+          "mandatory": true
+        },
+        {
+          "question_id": "E3",
+          "question_text": "Upload HOC/NOC certificate",
+          "type": "photo",
+          "reference_standard": "Maharashtra Act 2006 Section 7",
+          "mandatory": false
+        }
+      ]
+    }
+  ]
+}

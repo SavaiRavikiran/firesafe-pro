@@ -1,0 +1,702 @@
+{
+  "400000": {
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "stationName": "Mumbai Central Fire Station",
+    "address": "Mumbai Municipal Zone, Maharashtra",
+    "phone": "+91-22-700000"
+  },
+  "400001": {
+    "city": "Pune",
+    "state": "Maharashtra",
+    "stationName": "Pune Central Fire Station",
+    "address": "Pune Municipal Zone, Maharashtra",
+    "phone": "+91-22-700001"
+  },
+  "400002": {
+    "city": "Nagpur",
+    "state": "Maharashtra",
+    "stationName": "Nagpur Central Fire Station",
+    "address": "Nagpur Municipal Zone, Maharashtra",
+    "phone": "+91-22-700002"
+  },
+  "400003": {
+    "city": "Nashik",
+    "state": "Maharashtra",
+    "stationName": "Nashik Central Fire Station",
+    "address": "Nashik Municipal Zone, Maharashtra",
+    "phone": "+91-22-700003"
+  },
+  "400004": {
+    "city": "Thane",
+    "state": "Maharashtra",
+    "stationName": "Thane Central Fire Station",
+    "address": "Thane Municipal Zone, Maharashtra",
+    "phone": "+91-22-700004"
+  },
+  "400005": {
+    "city": "Delhi",
+    "state": "Delhi",
+    "stationName": "Delhi Central Fire Station",
+    "address": "Delhi Municipal Zone, Delhi",
+    "phone": "+91-22-700005"
+  },
+  "400006": {
+    "city": "Noida",
+    "state": "Uttar Pradesh",
+    "stationName": "Noida Central Fire Station",
+    "address": "Noida Municipal Zone, Uttar Pradesh",
+    "phone": "+91-22-700006"
+  },
+  "400007": {
+    "city": "Gurugram",
+    "state": "Haryana",
+    "stationName": "Gurugram Central Fire Station",
+    "address": "Gurugram Municipal Zone, Haryana",
+    "phone": "+91-22-700007"
+  },
+  "400008": {
+    "city": "Faridabad",
+    "state": "Haryana",
+    "stationName": "Faridabad Central Fire Station",
+    "address": "Faridabad Municipal Zone, Haryana",
+    "phone": "+91-22-700008"
+  },
+  "400009": {
+    "city": "Ghaziabad",
+    "state": "Uttar Pradesh",
+    "stationName": "Ghaziabad Central Fire Station",
+    "address": "Ghaziabad Municipal Zone, Uttar Pradesh",
+    "phone": "+91-22-700009"
+  },
+  "400010": {
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "stationName": "Bengaluru Central Fire Station",
+    "address": "Bengaluru Municipal Zone, Karnataka",
+    "phone": "+91-22-700010"
+  },
+  "400011": {
+    "city": "Mysuru",
+    "state": "Karnataka",
+    "stationName": "Mysuru Central Fire Station",
+    "address": "Mysuru Municipal Zone, Karnataka",
+    "phone": "+91-22-700011"
+  },
+  "400012": {
+    "city": "Mangaluru",
+    "state": "Karnataka",
+    "stationName": "Mangaluru Central Fire Station",
+    "address": "Mangaluru Municipal Zone, Karnataka",
+    "phone": "+91-22-700012"
+  },
+  "400013": {
+    "city": "Hubballi",
+    "state": "Karnataka",
+    "stationName": "Hubballi Central Fire Station",
+    "address": "Hubballi Municipal Zone, Karnataka",
+    "phone": "+91-22-700013"
+  },
+  "400014": {
+    "city": "Belagavi",
+    "state": "Karnataka",
+    "stationName": "Belagavi Central Fire Station",
+    "address": "Belagavi Municipal Zone, Karnataka",
+    "phone": "+91-22-700014"
+  },
+  "400015": {
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "stationName": "Hyderabad Central Fire Station",
+    "address": "Hyderabad Municipal Zone, Telangana",
+    "phone": "+91-22-700015"
+  },
+  "400016": {
+    "city": "Warangal",
+    "state": "Telangana",
+    "stationName": "Warangal Central Fire Station",
+    "address": "Warangal Municipal Zone, Telangana",
+    "phone": "+91-22-700016"
+  },
+  "400017": {
+    "city": "Nizamabad",
+    "state": "Telangana",
+    "stationName": "Nizamabad Central Fire Station",
+    "address": "Nizamabad Municipal Zone, Telangana",
+    "phone": "+91-22-700017"
+  },
+  "400018": {
+    "city": "Karimnagar",
+    "state": "Telangana",
+    "stationName": "Karimnagar Central Fire Station",
+    "address": "Karimnagar Municipal Zone, Telangana",
+    "phone": "+91-22-700018"
+  },
+  "400019": {
+    "city": "Khammam",
+    "state": "Telangana",
+    "stationName": "Khammam Central Fire Station",
+    "address": "Khammam Municipal Zone, Telangana",
+    "phone": "+91-22-700019"
+  },
+  "400020": {
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "stationName": "Chennai Central Fire Station",
+    "address": "Chennai Municipal Zone, Tamil Nadu",
+    "phone": "+91-22-700020"
+  },
+  "400021": {
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "stationName": "Coimbatore Central Fire Station",
+    "address": "Coimbatore Municipal Zone, Tamil Nadu",
+    "phone": "+91-22-700021"
+  },
+  "400022": {
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "stationName": "Madurai Central Fire Station",
+    "address": "Madurai Municipal Zone, Tamil Nadu",
+    "phone": "+91-22-700022"
+  },
+  "400023": {
+    "city": "Salem",
+    "state": "Tamil Nadu",
+    "stationName": "Salem Central Fire Station",
+    "address": "Salem Municipal Zone, Tamil Nadu",
+    "phone": "+91-22-700023"
+  },
+  "400024": {
+    "city": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "stationName": "Tiruchirappalli Central Fire Station",
+    "address": "Tiruchirappalli Municipal Zone, Tamil Nadu",
+    "phone": "+91-22-700024"
+  },
+  "400025": {
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "stationName": "Kolkata Central Fire Station",
+    "address": "Kolkata Municipal Zone, West Bengal",
+    "phone": "+91-22-700025"
+  },
+  "400026": {
+    "city": "Howrah",
+    "state": "West Bengal",
+    "stationName": "Howrah Central Fire Station",
+    "address": "Howrah Municipal Zone, West Bengal",
+    "phone": "+91-22-700026"
+  },
+  "400027": {
+    "city": "Durgapur",
+    "state": "West Bengal",
+    "stationName": "Durgapur Central Fire Station",
+    "address": "Durgapur Municipal Zone, West Bengal",
+    "phone": "+91-22-700027"
+  },
+  "400028": {
+    "city": "Siliguri",
+    "state": "West Bengal",
+    "stationName": "Siliguri Central Fire Station",
+    "address": "Siliguri Municipal Zone, West Bengal",
+    "phone": "+91-22-700028"
+  },
+  "400029": {
+    "city": "Asansol",
+    "state": "West Bengal",
+    "stationName": "Asansol Central Fire Station",
+    "address": "Asansol Municipal Zone, West Bengal",
+    "phone": "+91-22-700029"
+  },
+  "400030": {
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "stationName": "Ahmedabad Central Fire Station",
+    "address": "Ahmedabad Municipal Zone, Gujarat",
+    "phone": "+91-22-700030"
+  },
+  "400031": {
+    "city": "Surat",
+    "state": "Gujarat",
+    "stationName": "Surat Central Fire Station",
+    "address": "Surat Municipal Zone, Gujarat",
+    "phone": "+91-22-700031"
+  },
+  "400032": {
+    "city": "Vadodara",
+    "state": "Gujarat",
+    "stationName": "Vadodara Central Fire Station",
+    "address": "Vadodara Municipal Zone, Gujarat",
+    "phone": "+91-22-700032"
+  },
+  "400033": {
+    "city": "Rajkot",
+    "state": "Gujarat",
+    "stationName": "Rajkot Central Fire Station",
+    "address": "Rajkot Municipal Zone, Gujarat",
+    "phone": "+91-22-700033"
+  },
+  "400034": {
+    "city": "Bhavnagar",
+    "state": "Gujarat",
+    "stationName": "Bhavnagar Central Fire Station",
+    "address": "Bhavnagar Municipal Zone, Gujarat",
+    "phone": "+91-22-700034"
+  },
+  "400035": {
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "stationName": "Jaipur Central Fire Station",
+    "address": "Jaipur Municipal Zone, Rajasthan",
+    "phone": "+91-22-700035"
+  },
+  "400036": {
+    "city": "Jodhpur",
+    "state": "Rajasthan",
+    "stationName": "Jodhpur Central Fire Station",
+    "address": "Jodhpur Municipal Zone, Rajasthan",
+    "phone": "+91-22-700036"
+  },
+  "400037": {
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "stationName": "Udaipur Central Fire Station",
+    "address": "Udaipur Municipal Zone, Rajasthan",
+    "phone": "+91-22-700037"
+  },
+  "400038": {
+    "city": "Kota",
+    "state": "Rajasthan",
+    "stationName": "Kota Central Fire Station",
+    "address": "Kota Municipal Zone, Rajasthan",
+    "phone": "+91-22-700038"
+  },
+  "400039": {
+    "city": "Ajmer",
+    "state": "Rajasthan",
+    "stationName": "Ajmer Central Fire Station",
+    "address": "Ajmer Municipal Zone, Rajasthan",
+    "phone": "+91-22-700039"
+  },
+  "400040": {
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "stationName": "Lucknow Central Fire Station",
+    "address": "Lucknow Municipal Zone, Uttar Pradesh",
+    "phone": "+91-22-700040"
+  },
+  "400041": {
+    "city": "Kanpur",
+    "state": "Uttar Pradesh",
+    "stationName": "Kanpur Central Fire Station",
+    "address": "Kanpur Municipal Zone, Uttar Pradesh",
+    "phone": "+91-22-700041"
+  },
+  "400042": {
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "stationName": "Varanasi Central Fire Station",
+    "address": "Varanasi Municipal Zone, Uttar Pradesh",
+    "phone": "+91-22-700042"
+  },
+  "400043": {
+    "city": "Prayagraj",
+    "state": "Uttar Pradesh",
+    "stationName": "Prayagraj Central Fire Station",
+    "address": "Prayagraj Municipal Zone, Uttar Pradesh",
+    "phone": "+91-22-700043"
+  },
+  "400044": {
+    "city": "Agra",
+    "state": "Uttar Pradesh",
+    "stationName": "Agra Central Fire Station",
+    "address": "Agra Municipal Zone, Uttar Pradesh",
+    "phone": "+91-22-700044"
+  },
+  "400045": {
+    "city": "Bhopal",
+    "state": "Madhya Pradesh",
+    "stationName": "Bhopal Central Fire Station",
+    "address": "Bhopal Municipal Zone, Madhya Pradesh",
+    "phone": "+91-22-700045"
+  },
+  "400046": {
+    "city": "Indore",
+    "state": "Madhya Pradesh",
+    "stationName": "Indore Central Fire Station",
+    "address": "Indore Municipal Zone, Madhya Pradesh",
+    "phone": "+91-22-700046"
+  },
+  "400047": {
+    "city": "Jabalpur",
+    "state": "Madhya Pradesh",
+    "stationName": "Jabalpur Central Fire Station",
+    "address": "Jabalpur Municipal Zone, Madhya Pradesh",
+    "phone": "+91-22-700047"
+  },
+  "400048": {
+    "city": "Gwalior",
+    "state": "Madhya Pradesh",
+    "stationName": "Gwalior Central Fire Station",
+    "address": "Gwalior Municipal Zone, Madhya Pradesh",
+    "phone": "+91-22-700048"
+  },
+  "400049": {
+    "city": "Ujjain",
+    "state": "Madhya Pradesh",
+    "stationName": "Ujjain Central Fire Station",
+    "address": "Ujjain Municipal Zone, Madhya Pradesh",
+    "phone": "+91-22-700049"
+  },
+  "400050": {
+    "city": "Patna",
+    "state": "Bihar",
+    "stationName": "Patna Central Fire Station",
+    "address": "Patna Municipal Zone, Bihar",
+    "phone": "+91-22-700050"
+  },
+  "400051": {
+    "city": "Gaya",
+    "state": "Bihar",
+    "stationName": "Gaya Central Fire Station",
+    "address": "Gaya Municipal Zone, Bihar",
+    "phone": "+91-22-700051"
+  },
+  "400052": {
+    "city": "Muzaffarpur",
+    "state": "Bihar",
+    "stationName": "Muzaffarpur Central Fire Station",
+    "address": "Muzaffarpur Municipal Zone, Bihar",
+    "phone": "+91-22-700052"
+  },
+  "400053": {
+    "city": "Bhagalpur",
+    "state": "Bihar",
+    "stationName": "Bhagalpur Central Fire Station",
+    "address": "Bhagalpur Municipal Zone, Bihar",
+    "phone": "+91-22-700053"
+  },
+  "400054": {
+    "city": "Darbhanga",
+    "state": "Bihar",
+    "stationName": "Darbhanga Central Fire Station",
+    "address": "Darbhanga Municipal Zone, Bihar",
+    "phone": "+91-22-700054"
+  },
+  "400055": {
+    "city": "Chandigarh",
+    "state": "Chandigarh",
+    "stationName": "Chandigarh Central Fire Station",
+    "address": "Chandigarh Municipal Zone, Chandigarh",
+    "phone": "+91-22-700055"
+  },
+  "400056": {
+    "city": "Ludhiana",
+    "state": "Punjab",
+    "stationName": "Ludhiana Central Fire Station",
+    "address": "Ludhiana Municipal Zone, Punjab",
+    "phone": "+91-22-700056"
+  },
+  "400057": {
+    "city": "Amritsar",
+    "state": "Punjab",
+    "stationName": "Amritsar Central Fire Station",
+    "address": "Amritsar Municipal Zone, Punjab",
+    "phone": "+91-22-700057"
+  },
+  "400058": {
+    "city": "Jalandhar",
+    "state": "Punjab",
+    "stationName": "Jalandhar Central Fire Station",
+    "address": "Jalandhar Municipal Zone, Punjab",
+    "phone": "+91-22-700058"
+  },
+  "400059": {
+    "city": "Patiala",
+    "state": "Punjab",
+    "stationName": "Patiala Central Fire Station",
+    "address": "Patiala Municipal Zone, Punjab",
+    "phone": "+91-22-700059"
+  },
+  "400060": {
+    "city": "Kochi",
+    "state": "Kerala",
+    "stationName": "Kochi Central Fire Station",
+    "address": "Kochi Municipal Zone, Kerala",
+    "phone": "+91-22-700060"
+  },
+  "400061": {
+    "city": "Thiruvananthapuram",
+    "state": "Kerala",
+    "stationName": "Thiruvananthapuram Central Fire Station",
+    "address": "Thiruvananthapuram Municipal Zone, Kerala",
+    "phone": "+91-22-700061"
+  },
+  "400062": {
+    "city": "Kozhikode",
+    "state": "Kerala",
+    "stationName": "Kozhikode Central Fire Station",
+    "address": "Kozhikode Municipal Zone, Kerala",
+    "phone": "+91-22-700062"
+  },
+  "400063": {
+    "city": "Thrissur",
+    "state": "Kerala",
+    "stationName": "Thrissur Central Fire Station",
+    "address": "Thrissur Municipal Zone, Kerala",
+    "phone": "+91-22-700063"
+  },
+  "400064": {
+    "city": "Kollam",
+    "state": "Kerala",
+    "stationName": "Kollam Central Fire Station",
+    "address": "Kollam Municipal Zone, Kerala",
+    "phone": "+91-22-700064"
+  },
+  "400065": {
+    "city": "Bhubaneswar",
+    "state": "Odisha",
+    "stationName": "Bhubaneswar Central Fire Station",
+    "address": "Bhubaneswar Municipal Zone, Odisha",
+    "phone": "+91-22-700065"
+  },
+  "400066": {
+    "city": "Cuttack",
+    "state": "Odisha",
+    "stationName": "Cuttack Central Fire Station",
+    "address": "Cuttack Municipal Zone, Odisha",
+    "phone": "+91-22-700066"
+  },
+  "400067": {
+    "city": "Rourkela",
+    "state": "Odisha",
+    "stationName": "Rourkela Central Fire Station",
+    "address": "Rourkela Municipal Zone, Odisha",
+    "phone": "+91-22-700067"
+  },
+  "400068": {
+    "city": "Sambalpur",
+    "state": "Odisha",
+    "stationName": "Sambalpur Central Fire Station",
+    "address": "Sambalpur Municipal Zone, Odisha",
+    "phone": "+91-22-700068"
+  },
+  "400069": {
+    "city": "Puri",
+    "state": "Odisha",
+    "stationName": "Puri Central Fire Station",
+    "address": "Puri Municipal Zone, Odisha",
+    "phone": "+91-22-700069"
+  },
+  "400070": {
+    "city": "Visakhapatnam",
+    "state": "Andhra Pradesh",
+    "stationName": "Visakhapatnam Central Fire Station",
+    "address": "Visakhapatnam Municipal Zone, Andhra Pradesh",
+    "phone": "+91-22-700070"
+  },
+  "400071": {
+    "city": "Vijayawada",
+    "state": "Andhra Pradesh",
+    "stationName": "Vijayawada Central Fire Station",
+    "address": "Vijayawada Municipal Zone, Andhra Pradesh",
+    "phone": "+91-22-700071"
+  },
+  "400072": {
+    "city": "Guntur",
+    "state": "Andhra Pradesh",
+    "stationName": "Guntur Central Fire Station",
+    "address": "Guntur Municipal Zone, Andhra Pradesh",
+    "phone": "+91-22-700072"
+  },
+  "400073": {
+    "city": "Tirupati",
+    "state": "Andhra Pradesh",
+    "stationName": "Tirupati Central Fire Station",
+    "address": "Tirupati Municipal Zone, Andhra Pradesh",
+    "phone": "+91-22-700073"
+  },
+  "400074": {
+    "city": "Kakinada",
+    "state": "Andhra Pradesh",
+    "stationName": "Kakinada Central Fire Station",
+    "address": "Kakinada Municipal Zone, Andhra Pradesh",
+    "phone": "+91-22-700074"
+  },
+  "400075": {
+    "city": "Raipur",
+    "state": "Chhattisgarh",
+    "stationName": "Raipur Central Fire Station",
+    "address": "Raipur Municipal Zone, Chhattisgarh",
+    "phone": "+91-22-700075"
+  },
+  "400076": {
+    "city": "Bilaspur",
+    "state": "Chhattisgarh",
+    "stationName": "Bilaspur Central Fire Station",
+    "address": "Bilaspur Municipal Zone, Chhattisgarh",
+    "phone": "+91-22-700076"
+  },
+  "400077": {
+    "city": "Durg",
+    "state": "Chhattisgarh",
+    "stationName": "Durg Central Fire Station",
+    "address": "Durg Municipal Zone, Chhattisgarh",
+    "phone": "+91-22-700077"
+  },
+  "400078": {
+    "city": "Korba",
+    "state": "Chhattisgarh",
+    "stationName": "Korba Central Fire Station",
+    "address": "Korba Municipal Zone, Chhattisgarh",
+    "phone": "+91-22-700078"
+  },
+  "400079": {
+    "city": "Rajnandgaon",
+    "state": "Chhattisgarh",
+    "stationName": "Rajnandgaon Central Fire Station",
+    "address": "Rajnandgaon Municipal Zone, Chhattisgarh",
+    "phone": "+91-22-700079"
+  },
+  "400080": {
+    "city": "Ranchi",
+    "state": "Jharkhand",
+    "stationName": "Ranchi Central Fire Station",
+    "address": "Ranchi Municipal Zone, Jharkhand",
+    "phone": "+91-22-700080"
+  },
+  "400081": {
+    "city": "Jamshedpur",
+    "state": "Jharkhand",
+    "stationName": "Jamshedpur Central Fire Station",
+    "address": "Jamshedpur Municipal Zone, Jharkhand",
+    "phone": "+91-22-700081"
+  },
+  "400082": {
+    "city": "Dhanbad",
+    "state": "Jharkhand",
+    "stationName": "Dhanbad Central Fire Station",
+    "address": "Dhanbad Municipal Zone, Jharkhand",
+    "phone": "+91-22-700082"
+  },
+  "400083": {
+    "city": "Bokaro",
+    "state": "Jharkhand",
+    "stationName": "Bokaro Central Fire Station",
+    "address": "Bokaro Municipal Zone, Jharkhand",
+    "phone": "+91-22-700083"
+  },
+  "400084": {
+    "city": "Hazaribagh",
+    "state": "Jharkhand",
+    "stationName": "Hazaribagh Central Fire Station",
+    "address": "Hazaribagh Municipal Zone, Jharkhand",
+    "phone": "+91-22-700084"
+  },
+  "400085": {
+    "city": "Guwahati",
+    "state": "Assam",
+    "stationName": "Guwahati Central Fire Station",
+    "address": "Guwahati Municipal Zone, Assam",
+    "phone": "+91-22-700085"
+  },
+  "400086": {
+    "city": "Silchar",
+    "state": "Assam",
+    "stationName": "Silchar Central Fire Station",
+    "address": "Silchar Municipal Zone, Assam",
+    "phone": "+91-22-700086"
+  },
+  "400087": {
+    "city": "Dibrugarh",
+    "state": "Assam",
+    "stationName": "Dibrugarh Central Fire Station",
+    "address": "Dibrugarh Municipal Zone, Assam",
+    "phone": "+91-22-700087"
+  },
+  "400088": {
+    "city": "Jorhat",
+    "state": "Assam",
+    "stationName": "Jorhat Central Fire Station",
+    "address": "Jorhat Municipal Zone, Assam",
+    "phone": "+91-22-700088"
+  },
+  "400089": {
+    "city": "Tezpur",
+    "state": "Assam",
+    "stationName": "Tezpur Central Fire Station",
+    "address": "Tezpur Municipal Zone, Assam",
+    "phone": "+91-22-700089"
+  },
+  "400090": {
+    "city": "Dehradun",
+    "state": "Uttarakhand",
+    "stationName": "Dehradun Central Fire Station",
+    "address": "Dehradun Municipal Zone, Uttarakhand",
+    "phone": "+91-22-700090"
+  },
+  "400091": {
+    "city": "Haridwar",
+    "state": "Uttarakhand",
+    "stationName": "Haridwar Central Fire Station",
+    "address": "Haridwar Municipal Zone, Uttarakhand",
+    "phone": "+91-22-700091"
+  },
+  "400092": {
+    "city": "Roorkee",
+    "state": "Uttarakhand",
+    "stationName": "Roorkee Central Fire Station",
+    "address": "Roorkee Municipal Zone, Uttarakhand",
+    "phone": "+91-22-700092"
+  },
+  "400093": {
+    "city": "Haldwani",
+    "state": "Uttarakhand",
+    "stationName": "Haldwani Central Fire Station",
+    "address": "Haldwani Municipal Zone, Uttarakhand",
+    "phone": "+91-22-700093"
+  },
+  "400094": {
+    "city": "Rudrapur",
+    "state": "Uttarakhand",
+    "stationName": "Rudrapur Central Fire Station",
+    "address": "Rudrapur Municipal Zone, Uttarakhand",
+    "phone": "+91-22-700094"
+  },
+  "400095": {
+    "city": "Panaji",
+    "state": "Goa",
+    "stationName": "Panaji Central Fire Station",
+    "address": "Panaji Municipal Zone, Goa",
+    "phone": "+91-22-700095"
+  },
+  "400096": {
+    "city": "Margao",
+    "state": "Goa",
+    "stationName": "Margao Central Fire Station",
+    "address": "Margao Municipal Zone, Goa",
+    "phone": "+91-22-700096"
+  },
+  "400097": {
+    "city": "Mapusa",
+    "state": "Goa",
+    "stationName": "Mapusa Central Fire Station",
+    "address": "Mapusa Municipal Zone, Goa",
+    "phone": "+91-22-700097"
+  },
+  "400098": {
+    "city": "Ponda",
+    "state": "Goa",
+    "stationName": "Ponda Central Fire Station",
+    "address": "Ponda Municipal Zone, Goa",
+    "phone": "+91-22-700098"
+  },
+  "400099": {
+    "city": "Vasco da Gama",
+    "state": "Goa",
+    "stationName": "Vasco da Gama Central Fire Station",
+    "address": "Vasco da Gama Municipal Zone, Goa",
+    "phone": "+91-22-700099"
+  }
+}

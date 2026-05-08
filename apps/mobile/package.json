@@ -1,0 +1,24 @@
+{
+  "name": "@firesafe-pro/mobile",
+  "version": "0.1.0",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "dev": "expo start",
+    "build": "expo export",
+    "lint": "echo \"No lints configured for mobile\"",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@firesafe-pro/shared": "workspace:*",
+    "expo": "^53.0.0",
+    "expo-router": "^4.0.0",
+    "react": "^18.3.1",
+    "react-native": "^0.76.7",
+    "zustand": "^5.0.3"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.10",
+    "typescript": "^5.8.3"
+  }
+}

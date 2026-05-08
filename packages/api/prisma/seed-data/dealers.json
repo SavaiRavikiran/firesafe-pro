@@ -1,0 +1,73 @@
+[
+  {
+    "name": "Pune FireTech Services",
+    "region": "Pune",
+    "coverage": [
+      "411001",
+      "411014",
+      "411038"
+    ],
+    "services": [
+      "OFFLINE_AUDIT",
+      "TRAINING",
+      "MAINTENANCE"
+    ]
+  },
+  {
+    "name": "Mumbai Shield Systems",
+    "region": "Mumbai",
+    "coverage": [
+      "400001",
+      "400050",
+      "400093"
+    ],
+    "services": [
+      "OFFLINE_AUDIT",
+      "SUPPLY",
+      "MAINTENANCE"
+    ]
+  },
+  {
+    "name": "Delhi Safety Grid",
+    "region": "Delhi NCR",
+    "coverage": [
+      "110001",
+      "201301",
+      "122001"
+    ],
+    "services": [
+      "OFFLINE_AUDIT",
+      "TRAINING",
+      "SUPPLY"
+    ]
+  },
+  {
+    "name": "Hyderabad Blaze Control",
+    "region": "Hyderabad",
+    "coverage": [
+      "500001",
+      "500072",
+      "500081"
+    ],
+    "services": [
+      "OFFLINE_AUDIT",
+      "MAINTENANCE",
+      "SUPPLY"
+    ]
+  },
+  {
+    "name": "Bengaluru FireSecure",
+    "region": "Bengaluru",
+    "coverage": [
+      "560001",
+      "560034",
+      "560100"
+    ],
+    "services": [
+      "OFFLINE_AUDIT",
+      "TRAINING",
+      "MAINTENANCE",
+      "SUPPLY"
+    ]
+  }
+]

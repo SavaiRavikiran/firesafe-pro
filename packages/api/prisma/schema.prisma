@@ -1,0 +1,203 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id              String        @id @default(cuid())
+  name            String
+  email           String        @unique
+  phone           String        @unique
+  passwordHash    String
+  role            Role          @default(CLIENT)
+  subscription    Subscription?
+  audits          Audit[]
+  premises        Premise[]
+  location        Json?
+  dealerRegion    String?
+  dealer          Dealer?
+  emergencyAlerts EmergencyAlert[]
+  reminders       Reminder[]
+  createdAt       DateTime      @default(now())
+}
+
+enum Role {
+  CLIENT
+  EXPERT
+  DEALER
+  ADMIN
+  CALL_CENTER
+}
+
+model Subscription {
+  id            String    @id @default(cuid())
+  userId        String    @unique
+  user          User      @relation(fields: [userId], references: [id])
+  plan          PlanType
+  status        SubStatus @default(TRIAL)
+  trialEndsAt   DateTime?
+  startsAt      DateTime
+  endsAt        DateTime
+  razorpaySubId String?
+  createdAt     DateTime  @default(now())
+}
+
+enum PlanType {
+  FREE_TRIAL
+  BASIC
+}
+
+enum SubStatus {
+  TRIAL
+  ACTIVE
+  EXPIRED
+  CANCELLED
+}
+
+model Premise {
+  id              String           @id @default(cuid())
+  userId          String
+  user            User             @relation(fields: [userId], references: [id])
+  name            String
+  address         String
+  type            PremiseType
+  location        Json
+  audits          Audit[]
+  emergencyAlerts EmergencyAlert[]
+  createdAt       DateTime         @default(now())
+}
+
+enum PremiseType {
+  COMMERCIAL
+  RESIDENTIAL_SOCIETY
+  FACTORY
+  HOSPITAL
+  SCHOOL
+  OTHER
+}
+
+model Audit {
+  id            String      @id @default(cuid())
+  userId        String
+  user          User        @relation(fields: [userId], references: [id])
+  premiseId     String
+  premise       Premise     @relation(fields: [premiseId], references: [id])
+  status        AuditStatus @default(DRAFT)
+  auditType     AuditType   @default(ONLINE)
+  responses     Json
+  mediaFiles    MediaFile[]
+  reports       Report[]
+  safetyScore   Float?
+  scheduledAt   DateTime?
+  submittedAt   DateTime?
+  reminders     Reminder[]
+  createdAt     DateTime    @default(now())
+}
+
+enum AuditStatus {
+  DRAFT
+  SUBMITTED
+  UNDER_REVIEW
+  COMPLETED
+}
+
+enum AuditType {
+  ONLINE
+  OFFLINE
+}
+
+model MediaFile {
+  id        String    @id @default(cuid())
+  auditId   String
+  audit     Audit     @relation(fields: [auditId], references: [id])
+  url       String
+  type      MediaType
+  tag       String?
+  createdAt DateTime  @default(now())
+}
+
+enum MediaType {
+  PHOTO
+  VIDEO
+}
+
+model Report {
+  id          String     @id @default(cuid())
+  auditId     String
+  audit       Audit      @relation(fields: [auditId], references: [id])
+  type        ReportType
+  content     Json
+  pdfUrl      String?
+  generatedAt DateTime   @default(now())
+
+  @@index([auditId, type])
+}
+
+enum ReportType {
+  SYSTEM_GENERATED
+  EXPERT_CUSTOMIZED
+}
+
+model Dealer {
+  id       String          @id @default(cuid())
+  userId   String          @unique
+  user     User            @relation(fields: [userId], references: [id])
+  region   String
+  coverage String[]
+  isActive Boolean         @default(true)
+  services DealerService[]
+}
+
+enum DealerService {
+  OFFLINE_AUDIT
+  TRAINING
+  MAINTENANCE
+  SUPPLY
+}
+
+model EmergencyAlert {
+  id          String      @id @default(cuid())
+  userId      String
+  user        User        @relation(fields: [userId], references: [id])
+  premiseId   String
+  premise     Premise     @relation(fields: [premiseId], references: [id])
+  location    Json
+  triggeredAt DateTime    @default(now())
+  status      AlertStatus @default(TRIGGERED)
+  resolvedAt  DateTime?
+}
+
+enum AlertStatus {
+  TRIGGERED
+  ACKNOWLEDGED
+  RESOLVED
+}
+
+model Reminder {
+  id        String       @id @default(cuid())
+  userId    String
+  user      User         @relation(fields: [userId], references: [id])
+  auditId   String?
+  audit     Audit?       @relation(fields: [auditId], references: [id])
+  type      ReminderType
+  frequency ReminderFreq
+  nextDue   DateTime
+  sentAt    DateTime?
+}
+
+enum ReminderType {
+  AUDIT_DUE
+  DATA_UPLOAD
+  SUBSCRIPTION_EXPIRY
+  WEBINAR
+}
+
+enum ReminderFreq {
+  WEEKLY
+  MONTHLY
+  YEARLY
+}

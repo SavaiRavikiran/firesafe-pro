@@ -1,0 +1,30 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: firesafe-pro-postgres
+    environment:
+      POSTGRES_USER: firesafe
+      POSTGRES_PASSWORD: firesafe
+      POSTGRES_DB: firesafe_pro
+    ports:
+      - "5432:5432"
+    volumes:
+      - firesafe_postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U firesafe -d firesafe_pro"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    container_name: firesafe-pro-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - firesafe_redis_data:/data
+    command: redis-server --appendonly yes
+
+volumes:
+  firesafe_postgres_data:
+  firesafe_redis_data:
